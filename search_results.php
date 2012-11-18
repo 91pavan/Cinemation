@@ -97,7 +97,7 @@
         <?php 
         $flag=0;
 		
-	$apikey = 'qmtbwkhqwyg8ne2vypzq2mwj';
+	$apikey = 'YOUR_API_KEY';
 $q = urlencode($_POST['textboxid']); // make sure to url encode an query parameters
 if($q) {
 // construct the query with our apikey and the query we want to make
@@ -199,7 +199,7 @@ if($flag==0)
       <div class="footer span5">
         
         <?php
-        /*$string1 = file_get_contents("http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=qmtbwkhqwyg8ne2vypzq2mwj");
+        /*$string1 = file_get_contents("http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=YOUR_API_KEY");
         if($string1){
 		if($flag==1) {
 		echo "<p><h3>You might also like the current box office movies.</h3><br/>";
