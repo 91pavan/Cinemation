@@ -5,6 +5,6 @@ Feel free to fork .
 
 You must have WAMP or LAMP installed . No databases involved .
 
-try the demo at : http://pavan91.byethost4.com/search_movie/
+try the demo at : http://pavan-search-movie.ap01.aws.af.cm/
 
 Cheers!
