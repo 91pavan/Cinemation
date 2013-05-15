@@ -1,0 +1,13 @@
+Cinemation is really a very simple web application which is more of a clone of Rotten Tomatoes.
+Usability : It is a very miniature movie search engine which takes in a search request and gives all the relevant details of that movie.
+
+Also, it gives a hint of which movies are currently doing very good at the Box Office.
+
+Design / Architecture : Not many components involved. The main is the search engine which is written in PHP. 
+I use the Rotten Tomato API and contact the server with the movie name the user searches for.
+
+I parse the response and show the result in a very nice format which is readable.
+
+
+My application is hosted on AppFog. AppFog is a public cloud PaaS.
+It can handle 100 requests per second and has scalable architecture with built-in caching and load balancing.
